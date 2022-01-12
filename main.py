@@ -145,10 +145,7 @@ while locked:
         if key == 'FaceMatches' and value != '' and value != []:
             if(value[0]['Similarity'] > 95):
                 match = True
-    #        print(key)
-    #        print('\n')
-    #        for att in value:
-    #            print(att)
+
 
     if(match):
         print('Face Recognized...')
